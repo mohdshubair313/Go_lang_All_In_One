@@ -34,4 +34,9 @@ func main() {
 		default:
 			fmt.Println("Unknown type")
 		}
+	}
+	whoAmI(7)
+	whoAmI("hello")
+	whoAmI(true)
+	whoAmI(3.14)
 }
