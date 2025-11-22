@@ -5,7 +5,7 @@ import (
 )
 
 func counter() func() int {  // yaha par function counter hai jo recieve nahi kar rahi par ek func return kar rahi hai and ye ek integer return karega
-	var count int = 0
+	count := 0
 
 	return func() int {		// yaha par outer fn me jo count variable hai wo outer hai yaani bahar se ayaa hai so iska execution chalta rahega
 		count  += 1

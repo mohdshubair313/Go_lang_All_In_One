@@ -9,7 +9,7 @@ import (
 // javascript me hash, object wagera hote hai wo maps in go hai
 // Note:  the make() function is used for initializing slices, maps, and channels
 func main() {
-	// why we not initialize map like slice like var m =  map[string]int
+	// why we not initialize map like slice like var m = map[string]int
 	//When we declare a map as nil (var m map[KeyType]ValueType), it is uninitialized and not yet ready to store key-value pairs. So this will create a runtime error when we try to add values to a nil map. To avoid such errors create map using make
 	m := make(map[string]string)
 

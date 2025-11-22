@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"slices"
 )
 
 func main() {
@@ -21,6 +20,8 @@ func main() {
 //--- --- --------------------------------------------------------------------------------------------------------------------
 
 	/*
+	**Note** make inbuilt Go function the make() function is used to create and initialize built-in data structures that require runtime initialization: specifically slices, maps, and channels.
+
 	var nums = make([]int, 2,  5) // here 2 is the size means length kitni hogi slice ki initially and 5 is the capacity 
 
 	fmt.Println(cap(nums)) // returns the maximum numbers of elements can fit but it doesn't means that it only size of z but it can rezise dynamically

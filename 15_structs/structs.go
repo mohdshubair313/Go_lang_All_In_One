@@ -35,9 +35,13 @@ func main() {	// complex data structure banana hai to structs ka use karte hai
 	}
 	fmt.Println(MyOrder2)
 
+	// so hum struct ke madad se OOPs ke tarah data ko organize kar sakte hai and multiple instances bana sakte hai jo alag alag data hold karenge
+
 //--------***** -----------------------------------------------------------------
 
-// structs ke upar ham multiple methods yaa function bhi use kar sakte hai and use kar sakte hai main function me for example
+// structs ke ham function bhi define kar sakte hai jo particular struct ke liye kaam karega and jaise oops me behaviour define karte hai jisme methods hote hai waise 
+
+
 
 
 }

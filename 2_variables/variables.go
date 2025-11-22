@@ -17,7 +17,7 @@ func main() {
 	country := "USA"
 	fmt.Println(country)
 
-	// phir aisa to kabhi type declare karna hi padega ... par aisa nahi hai kuch jagah par ham khaali variable declare karte hai and value defined nahi karte to usme type define karna padega like this
+	// phir aise to kabhi type declare karna hi nahi padega ... par aisa nahi hai kuch jagah par ham khaali variable declare karte hai and value defined nahi karte to usme type define karna padega like this
 	var state string
 
 	state = "California"
